@@ -2,7 +2,7 @@
 
 It is a Natural Language Processing Problem where Sentiment Analysis is done by Classifying the Positive tweets from negative tweets by machine learning models for classification, text mining, text analysis, data analysis and data visualization
 
-INTRODUCTION
+## INTRODUCTION
 Natural Language Processing (NLP) is a hotbed of research in data science these days and one of the most common applications of NLP is sentiment analysis. From opinion polls to creating entire marketing strategies, this domain has completely reshaped the way businesses work, which is why this is an area every data scientist must be familiar with.
 
 Thousands of text documents can be processed for sentiment (and other features including named entities, topics, themes, etc.) in seconds, compared to the hours it would take a team of people to manually complete the same task.
@@ -11,7 +11,7 @@ We will do so by following a sequence of steps needed to solve a general sentime
 
 This is one of the most interesting challenges in NLP so I’m very excited to take this journey with you!
 
-Understand the Problem Statement
+### Understand the Problem Statement
 Let’s go through the problem statement once as it is very crucial to understand the objective before working on the dataset. The problem statement is as follows:
 
 The objective of this task is to detect hate speech in tweets. For the sake of simplicity, we say a tweet contains hate speech if it has a racist or sexist sentiment associated with it. So, the task is to classify racist or sexist tweets from other tweets.
@@ -22,7 +22,7 @@ Note: The evaluation metric from this practice problem is F1-Score.
 
 Take a look at the pictures below depicting two scenarios of an office space – one is untidy and the other is clean and organized.
 
-Tweets Preprocessing and Cleaning
+### Tweets Preprocessing and Cleaning
 You are searching for a document in this office space. In which scenario are you more likely to find the document easily? Of course, in the less cluttered one because each item is kept in its proper place. The data cleaning exercise is quite similar. If the data is arranged in a structured format then it becomes easier to find the right information.
 
 The preprocessing of the text data is an essential step as it makes the raw text ready for mining, i.e., it becomes easier to extract information from the text and apply machine learning algorithms to it. If we skip this step then there is a higher chance that you are working with noisy and inconsistent data. The objective of this step is to clean noise those are less relevant to find the sentiment of tweets such as punctuation, special characters, numbers, and terms which don’t carry much weightage in context to the text.
@@ -31,11 +31,9 @@ In one of the later stages, we will be extracting numeric features from our Twit
 
 Let’s first read our data and load the necessary libraries.
 
-Story Generation
+### Story Generation
 What are the most common words in the entire dataset? What are the most common words in the dataset for negative and positive tweets, respectively? How many hashtags are there in a tweet? Which trends are associated with my dataset? Which trends are associated with either of the sentiments? Are they compatible with the sentiments?
 
-End Notes
-Did you find this article useful? Do you have any useful trick? Did you use any other method for feature extraction? Feel free to discuss your experiences in comments below or on the discussion portal and we’ll be more than happy to discuss.
 
 Contact
 
